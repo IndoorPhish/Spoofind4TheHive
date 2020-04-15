@@ -28,14 +28,14 @@ Function CreateTheHiveAlert {
     Invoke-RestMethod -Uri $API_Uri -Headers $API_headers -Body $JsonBody -Method $API_Method -ContentType 'application/json' -Verbose
 }
 $dir = Split-Path -Path $PSCommandPath
-#Define matches in the conf file as below
+#Define matches in the Search.txt file as below
 #---Internationalised Domain Names---
 #xn-- .*
 #---Google spoofs---
 #.*g[0o]{2}gle.*
 
 $search = New-Object -TypeName "System.Collections.ArrayList"
-foreach ($l in Get-Content "$dir\Search.conf"){
+foreach ($l in Get-Content "$dir\Search.txt"){
 [void]$search.Add($l)
 }
 Write-Host "---Spoofind---"
