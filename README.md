@@ -5,7 +5,7 @@ Add regex searches to a file named Search.txt in the same directory as the Power
 The format of the file should be:
 
 - Line 1: ---Google spoofs---
-- Line 2: .*g[0o]gle.*
+- Line 2: .*g[o0]{2}le\.com
 - Line 3: ---Another Search---
 - Line 4: .*bing\.com
 
