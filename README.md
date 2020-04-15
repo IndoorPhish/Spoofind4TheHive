@@ -1,7 +1,7 @@
 # Spoofind4TheHive
 Pull a list of newly registered domains and check them against a list of regex searches and create an alert in TheHive.
 
-Add regex searches to a file named Search.conf in the same directory as the PowerShell script.
+Add regex searches to a file named Search.txt in the same directory as the PowerShell script.
 The format of the file should be:
 
 - Line 1: ---Google spoofs---
