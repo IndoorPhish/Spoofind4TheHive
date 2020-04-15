@@ -1,4 +1,4 @@
 ---Google spoofs (These titles could be anything you like)---
-.g[0o]gle.
+.*g[0o]gle.*
 ---Another Search (These titles could be anything you like)---
 .*bing.com
