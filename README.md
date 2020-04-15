@@ -9,4 +9,4 @@ The format of the file should be:
 - Line 3: ---Another Search---
 - Line 4: .*bing\.com
 
-Change the API URI on line 11 of the PS1 file to where you are hosting your instance of TheHive. Then create a file named in the same directory named TheHiveAPI - this should contain only your API key.
+Change the API URI on line 11 of the PS1 file to where you are hosting your instance of TheHive. Then create a file in the same directory named TheHiveAPI - this should contain only your API key.
