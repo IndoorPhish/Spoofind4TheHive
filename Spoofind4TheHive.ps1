@@ -29,11 +29,7 @@ write-host $JsonBody
 Invoke-RestMethod -Uri $API_Uri -Headers $API_headers -Body $JsonBody -Method $API_Method -ContentType 'application/json' -Verbose
 }
 $dir = get-location
-#Define matches in the Search.txt file as below
-#---Internationalised Domain Names---
-#xn-- .*
-#---Google spoofs---
-#.*g[0o]{2}gle.*
+#Searches here
 $search = New-Object -TypeName "System.Collections.ArrayList"
 [void]$search.Add("%Google%")
 [void]$search.Add(".*[g9][o0u]{1,8}[g9][l7i][3e].*")
